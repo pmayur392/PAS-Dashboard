@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PAS - PowerAero Suites</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Fevicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- C3 Charts css -->
+    <link href="assets/plugins/c3/c3.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/Custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="vertical-layout">
+    <!-- Start Infobar Setting Sidebar -->
+    <div id="infobar-settings-sidebar" class="infobar-settings-sidebar">
+        <div class="infobar-settings-sidebar-head d-flex w-100 justify-content-between">
+            <h4>Settings</h4>
+            <a href="javascript:void(0)" id="infobar-settings-close" class="infobar-settings-close">
+                <img src="assets/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close">
+            </a>
+        </div>
+        <div class="infobar-settings-sidebar-body">
+            <div class="custom-mode-setting">
+                <div class="row align-items-center pb-3">
+                    <div class="col-8">
+                        <h6 class="mb-0">Payment Reminders</h6>
+                    </div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-first" checked />
+                    </div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8">
+                        <h6 class="mb-0">Stock Updates</h6>
+                    </div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-second" checked />
+                    </div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8">
+                        <h6 class="mb-0">Open for New Products</h6>
+                    </div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-third" /></div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8">
+                        <h6 class="mb-0">Enable SMS</h6>
+                    </div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-fourth" checked />
+                    </div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8">
+                        <h6 class="mb-0">Newsletter Subscription</h6>
+                    </div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-fifth" checked />
+                    </div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8">
+                        <h6 class="mb-0">Show Map</h6>
+                    </div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-sixth" /></div>
+                </div>
+                <div class="row align-items-center pb-3">
+                    <div class="col-8">
+                        <h6 class="mb-0">e-Statement</h6>
+                    </div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-seventh" checked />
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <h6 class="mb-0">Monthly Report</h6>
+                    </div>
+                    <div class="col-4 text-right"><input type="checkbox" class="js-switch-setting-eightth" checked />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="infobar-settings-sidebar-overlay"></div>
+    <!-- End Infobar Setting Sidebar -->
+
+    <!-- Start Containerbar -->
+    <div id="containerbar">
+        <!-- Start Leftbar -->
+        <div class="leftbar">
+            <!-- Start Sidebar -->
+            <div class="sidebar">
+                <!-- Start Logobar -->
+                <div class="logobar">
+                    <a href="#!" class="logo logo-large">
+                        <img src="assets/images/logo-light.png" class="img-fluid" alt="logo">
+                    </a>
+                    <a href="#!" class="logo logo-small">
+                        <img src="assets/images/logo-light.png" class="img-fluid" alt="logo">
+                    </a>
+                </div>
+                <!-- End Logobar -->
+                <!-- Start Navigationbar -->
+                <div class="navigationbar">
+                    <ul class="vertical-menu">
+                        <li>
+                            <a href="javaScript:void();">
+                                <img src="assets/images/svg-icon/dashboard.svg" class="img-fluid"
+                                    alt="dashboard"><span>Dashboard</span>
+                                <!-- <i class="feather icon-chevron-right pull-right"></i> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javaScript:void();">
+                                <img src="assets/images/svg-icon/basic.svg" class="img-fluid" alt="basic">
+                                <span>CRM </span>
+                                <i class="feather icon-chevron-right pull-right"></i>
+                            </a>
+                            <ul class="vertical-submenu">
+                                <li><a href="#!">CRM 1</a></li>
+                                <li><a href="#!">CRM 2</a></li>
+                                <li><a href="#!">CRM 3</a></li>
+                                <li><a href="#!">CRM 4</a></li>
+                                <li><a href="#!">CRM 5</a></li>
+                                <li><a href="#!">CRM 6</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javaScript:void();">
+                                <img src="assets/images/svg-icon/advanced.svg" class="img-fluid" alt="basic">
+                                <span>Inventory </span>
+                                <i class="feather icon-chevron-right pull-right"></i>
+                            </a>
+                            <ul class="vertical-submenu">
+                                <li><a href="#!">Inventory 1</a></li>
+                                <li><a href="#!">Inventory 2</a></li>
+                                <li><a href="#!">Inventory 3</a></li>
+                                <li><a href="#!">Inventory 4</a></li>
+                                <li><a href="#!">Inventory 5</a></li>
+                                <li><a href="#!">Inventory 6</a></li>
+                               
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- End Navigationbar -->
+            </div>
+            <!-- End Sidebar -->
+        </div>
+        <!-- End Leftbar -->
+        <!-- Start Rightbar -->
+        <div class="rightbar">
+            <!-- Start Topbar Mobile -->
+            <div class="topbar-mobile">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="mobile-logobar">
+                            <a href="index.html" class="mobile-logo"><img src="assets/images/logo-light.png"
+                                    class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="mobile-togglebar">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <div class="topbar-toggle-icon">
+                                        <a class="topbar-toggle-hamburger" href="javascript:void();">
+                                            <img src="assets/images/svg-icon/horizontal.svg"
+                                                class="img-fluid menu-hamburger-horizontal" alt="horizontal">
+                                            <img src="assets/images/svg-icon/verticle.svg"
+                                                class="img-fluid menu-hamburger-vertical" alt="verticle">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="menubar">
+                                        <a class="menu-hamburger" href="javascript:void();">
+                                            <img src="assets/images/svg-icon/collapse.svg"
+                                                class="img-fluid menu-hamburger-collapse" alt="collapse">
+                                            <img src="assets/images/svg-icon/close.svg"
+                                                class="img-fluid menu-hamburger-close" alt="close">
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Topbar -->
+            <div class="topbar">
+                <!-- Start row -->
+                <div class="row align-items-center">
+                    <!-- Start col -->
+                    <div class="col-md-12 align-self-center">
+                        <div class="togglebar">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <div class="menubar">
+                                        <a class="menu-hamburger" href="javascript:void();">
+                                            <img src="assets/images/svg-icon/collapse.svg"
+                                                class="img-fluid menu-hamburger-collapse" alt="collapse">
+                                            <img src="assets/images/svg-icon/close.svg"
+                                                class="img-fluid menu-hamburger-close" alt="close">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="searchbar">
+                                        <form>
+                                            <div class="input-group">
+                                                <input type="search" class="form-control" placeholder="Search"
+                                                    aria-label="Search" aria-describedby="button-addon2">
+                                                <div class="input-group-append">
+                                                    <button class="btn" type="submit" id="button-addon2"><img
+                                                            src="assets/images/svg-icon/search.svg" class="img-fluid"
+                                                            alt="search"></button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="infobar">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <div class="settingbar">
+                                        <a href="javascript:void(0)" id="infobar-settings-open" class="infobar-icon">
+                                            <img src="assets/images/svg-icon/settings.svg" class="img-fluid"
+                                                alt="settings">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="notifybar">
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle infobar-icon" href="#" role="button"
+                                                id="notoficationlink" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false"><img
+                                                    src="assets/images/svg-icon/notifications.svg" class="img-fluid"
+                                                    alt="notifications">
+                                                <span class="live-icon"></span></a>
+                                            <div class="dropdown-menu dropdown-menu-right"
+                                                aria-labelledby="notoficationlink">
+                                                <div class="notification-dropdown-title">
+                                                    <h4>Notifications</h4>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                    <li class="media dropdown-item">
+                                                        <span class="action-icon badge badge-primary-inverse"><i
+                                                                class="feather icon-dollar-sign"></i></span>
+                                                        <div class="media-body">
+                                                            <h5 class="action-title">$135 received</h5>
+                                                            <p><span class="timing">Today, 10:45 AM</span></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="media dropdown-item">
+                                                        <span class="action-icon badge badge-success-inverse"><i
+                                                                class="feather icon-file"></i></span>
+                                                        <div class="media-body">
+                                                            <h5 class="action-title">Project X prototype approved</h5>
+                                                            <p><span class="timing">Yesterday, 01:40 PM</span></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="media dropdown-item">
+                                                        <span class="action-icon badge badge-danger-inverse"><i
+                                                                class="feather icon-eye"></i></span>
+                                                        <div class="media-body">
+                                                            <h5 class="action-title">John requested to view wireframe
+                                                            </h5>
+                                                            <p><span class="timing">3 Sep 2019, 05:22 PM</span></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="media dropdown-item">
+                                                        <span class="action-icon badge badge-warning-inverse"><i
+                                                                class="feather icon-package"></i></span>
+                                                        <div class="media-body">
+                                                            <h5 class="action-title">Sports shoes are out of stock</h5>
+                                                            <p><span class="timing">15 Sep 2019, 02:55 PM</span></p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="profilebar">
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle" href="#" role="button" id="profilelink"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                                    src="assets/images/users/profile.svg" class="img-fluid"
+                                                    alt="profile"><span
+                                                    class="feather icon-chevron-down live-icon"></span></a>
+                                            <div class="dropdown-menu dropdown-menu-right"
+                                                aria-labelledby="profilelink">
+                                                <div class="dropdown-item">
+                                                    <div class="profilename">
+                                                        <h5>John Doe</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="userbox">
+                                                    <ul class="list-unstyled mb-0">
+                                                        <li class="media dropdown-item">
+                                                            <a href="#" class="profile-icon"><img
+                                                                    src="assets/images/svg-icon/user.svg"
+                                                                    class="img-fluid" alt="user">My Profile</a>
+                                                        </li>
+                                                        <li class="media dropdown-item">
+                                                            <a href="#" class="profile-icon"><img
+                                                                    src="assets/images/svg-icon/email.svg"
+                                                                    class="img-fluid" alt="email">Email</a>
+                                                        </li>
+                                                        <li class="media dropdown-item">
+                                                            <a href="#" class="profile-icon"><img
+                                                                    src="assets/images/svg-icon/logout.svg"
+                                                                    class="img-fluid" alt="logout">Logout</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End row -->
+            </div>
+            <!-- End Topbar -->
+            <!-- Start Breadcrumbbar -->
+            <div class="breadcrumbbar">
+                <div class="row align-items-center">
+                    <div class="col-md-8 col-lg-8">
+                        <h4 class="page-title">Dashboard</h4>
+                        <div class="breadcrumb-list">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Breadcrumbbar -->
+
+            <!-- Start Contentbar -->
+            <div class="contentbar">
+                <!-- Start row -->
+                <div class="row">
+                    <!-- Start col -->
+                    <div class="col-lg-12 col-xl-6">
+                        <!-- Start row -->
+                        <div class="row">
+                            <!-- Start col -->
+                            <div class="col-lg-12">
+                                <div class="card m-b-30">
+                                    <div class="card-header">
+                                        <div class="row align-items-center">
+                                            <div class="col-9">
+                                                <h5 class="card-title mb-0">Line Chart</h5>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-link p-0 font-18 float-right" type="button"
+                                                        id="widgetRevenue" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false"><i
+                                                            class="feather icon-more-horizontal-"></i></button>
+                                                    <div class="dropdown-menu dropdown-menu-right"
+                                                        aria-labelledby="widgetRevenue">
+                                                        <a class="dropdown-item font-13" href="#">Refresh</a>
+                                                        <a class="dropdown-item font-13" href="#">Export</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body py-0">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-12">
+                                                <div id="c3-stacked-area" style="height:320px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End col -->
+                        </div>
+                        <!-- End row -->
+                    </div>
+                    <!-- End col -->
+                    <!-- Start col -->
+                    <div class="col-lg-12 col-xl-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Bar Chart</h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="c3-bar" style="height:320px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Pie Chart</h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="c3-pie" style="height:320px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+
+                    <!-- Start col -->
+                    <div class="col-lg-6">
+                        <div class="card m-b-30">
+                            <div class="card-header">
+                                <h5 class="card-title">Donut Chart</h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="c3-donut" style="height:320px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End row -->
+            </div>
+            <!-- End Contentbar -->
+            <!-- Start Footerbar -->
+            <div class="footerbar">
+                <footer class="footer">
+                    <p class="mb-0">© 2023 Mayur - All Rights Reserved.</p>
+                </footer>
+            </div>
+            <!-- End Footerbar -->
+        </div>
+    </div>
+</body>
+<!-- Start js -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/vertical-menu.js"></script>
+<!-- C3 Chart js -->
+<script src="assets/plugins/d3/d3.min.js"></script>
+<script src="assets/plugins/c3/c3.min.js"></script>
+<script src="assets/js/custom/custom-chart-c3.js"></script>
+
+
+
+<!-- Custom Dashboard js -->
+<script src="assets/js/custom/custom-dashboard.js"></script>
+<!-- Core js -->
+<script src="assets/js/core.js"></script>
+
+</html>
